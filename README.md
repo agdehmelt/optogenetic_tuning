@@ -1,11 +1,11 @@
 # optogenetic_tuning
-Custom code for bifurcation analysis, ODE, SDE and CA simulations related to Kamps et al.,2020
+##Custom code for bifurcation analysis, ODE, SDE and CA simulations related to Kamps et al.,2020
 
-Instructions for code related to Kamps et al. 2020
+###Instructions for code related to Kamps et al. 2020
 
-Bifurcation analysis (Figures 2 H and 2I):
+####Bifurcation analysis (Figures 2 H and 2I):
 
-Requirements:
+#####Requirements:
 XPP 7.0 or later
 
 1.  Start XPP 7.0 or higher
@@ -18,12 +18,12 @@ XPP 7.0 or later
 
 5. Enter the following settings:
 
-Parameters:
+#####Parameters:
 
 Par1:Gt
 Par2:Mt
 
-Axes:
+#####Axes:
 
 hI-lo
 Y-axis:RA
@@ -32,7 +32,7 @@ Ymin:0
 Xmax:3
 Ymax:1
 
-Numerics:
+#####Numerics:
 
 Ntst: 500
 Nmax: 2500
@@ -52,7 +52,7 @@ Par Max:3
 
 9. Adjust the following settings:
 
-Axes:
+#####Axes:
 
 Two par
 Xmin:0
@@ -66,16 +66,16 @@ Ymax:10
 
 12. Adjust the following settings:
 
-Numerics:
+#####Numerics:
 
 Ds.0.001
 
 10. Perform 2-parameter analysis analysis (Run/Two param) to finish 2-parameter bifurcation analysis. Adjust axes (Xmax: 1 and Ymax:1) and click reDraw to zoom into most relevant parameter regions.
 
  
-ODE and SDE simulations (Figures 2 J and 3B, 4A-D, 4F-G):
+####ODE and SDE simulations (Figures 2 J and 3B, 4A-D, 4F-G):
 
-Requirements:
+#####Requirements:
 Matlab R2018 or later
 
 1. Open Matlab R2018 or later
@@ -87,9 +87,9 @@ Matlab R2018 or later
 4. Choose, which data should be generated. Please note that only one repeat of stochastic simulations will be generated and that the parameter ranges are smaller than in the publication to facilitate rapid data generation. The parameter ranges can be adjusted in the ode_sims.m script.
 
  
-CA simulations (Figures 5B,5C and 5E):
+####CA simulations (Figures 5B,5C and 5E):
 
-Requirements: 
+#####Requirements: 
 Cellular automata code from (Schmick et al., 2014).
 Matlab R2018 or later
 
