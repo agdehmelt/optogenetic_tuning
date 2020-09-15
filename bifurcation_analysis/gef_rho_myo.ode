@@ -1,0 +1,39 @@
+#Gef_rho_myosin_system
+int Ga=0.30861,Ma=0.71342, Ra=0.33484
+
+#equations
+dGa/dt = (k3*Gi*Ra-k4*Ga*Ma)
+dMa/dt = (((k5*Ra*Mi)/(Km5+Mi))+((k7*Mi)/(Km7+Mi))-((k6*Ma)/(Km6+Ma)))
+dRa/dt = (((k0*Ri*Ga)/(Km1+Ri))-((k2*Ra)/(Km2+Ra)))
+#variables
+Gi=Gt-Ga
+Mi=Mt-Ma
+Ri=Rt-Ra
+
+#constants
+param Km0=2.422982
+param Km1=2.422982
+param Km2=0.074542
+param Km3=1
+param Km4=1
+param Km5=0.013965
+param Km6=0.785576
+param Km7=1
+param Km2p=0.1
+param Hill=1.0
+param Rt=0.443
+param Mt=1.24
+param Gt=2.5
+
+param k0=9.412596943
+param k1=0.0
+param k2=0.151757896
+param k3=1.194935
+param k4=3.982494
+param k5=0.005829585
+param k6=0.00399544
+param k7=0.0
+param k2p=0
+
+@ total=10000,dt=.2,xhi=1000,yhi=4
+done
