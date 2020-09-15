@@ -91,7 +91,9 @@ Matlab R2018 or later
 
 ##### Requirements: 
 Matlab R2018 or later
+
 Cellular automata code from (Schmick et al., 2014).
+
 ICS Analysis v1.0 (https://github.com/stevekochscience/Image-Correlation-Spectroscopy)
 
 1. Merge supplied code with cellular automata code (Schmick et al., 2014) into one folder
