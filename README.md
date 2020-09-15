@@ -1,6 +1,8 @@
 # optogenetic_tuning
 ## Custom code for bifurcation analysis, ODE, SDE and CA simulations related to Kamps et al.,2020
 
+Reference: Kamps et al., 2020, "Optogenetic tuning reveals Rho amplification-dependent dynamics of a cell contraction signal network"
+
 ### Instructions for code related to Kamps et al. 2020
 
 #### Bifurcation analysis (Figures 2 H and 2I):
